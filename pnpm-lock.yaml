@@ -45,8 +45,8 @@ importers:
         specifier: ^7.2.1
         version: 7.2.1(eslint@9.29.0)
       pnpm:
-        specifier: ^10.12.3
-        version: 10.12.3
+        specifier: ^10.12.4
+        version: 10.12.4
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -77,13 +77,13 @@ packages:
     resolution: {integrity: sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/parser@7.27.5':
-    resolution: {integrity: sha512-OsQd175SxWkGlzbny8J3K8TnnDD0N3lrIUtB92xwyRpzaenGZhxDvxN/JgU00U3CDZNj9tPuDJ5H0WS4Nt3vKg==}
+  '@babel/parser@7.27.7':
+    resolution: {integrity: sha512-qnzXzDXdr/po3bOTbTIQZ7+TxNKxpkN5IifVLXS+r7qwynkZfPyjZfE7hCXbo7IoO9TNcSyibgONsf2HauUd3Q==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  '@babel/types@7.27.6':
-    resolution: {integrity: sha512-ETyHEk2VHHvl9b9jZP5IHPavHYk57EhanlRRuae9XCpb/j5bDCbPPMOBfCWhnl/7EDJz0jEMCi/RhccCE8r1+Q==}
+  '@babel/types@7.27.7':
+    resolution: {integrity: sha512-8OLQgDScAOHXnAz2cV+RfzzNMipuLVBz2biuAJFMV9bfkNf393je3VM8CLkjQodW5+iWsSJdSgSWT6rsZoXHPw==}
     engines: {node: '>=6.9.0'}
 
   '@bcoe/v8-coverage@1.0.2':
@@ -1511,8 +1511,8 @@ packages:
     resolution: {integrity: sha512-M7BAV6Rlcy5u+m6oPhAPFgJTzAioX/6B0DxyvDlo9l8+T3nLKbrczg2WLUyzd45L8RqfUMyGPzekbMvX2Ldkwg==}
     engines: {node: '>=12'}
 
-  pnpm@10.12.3:
-    resolution: {integrity: sha512-Rn3yxYYFYWVYCtbftUzqrZTFow+AiT697FpExapzwgWuSlu51e1ruE6nwkns54ZkK7tJ0GowffIY0D2kHDF0Fw==}
+  pnpm@10.12.4:
+    resolution: {integrity: sha512-Xqiw3u2U7WhpHJutTJVUknBcXuuKh++GvGLHSiawN7CP+VcPEIsuTb0d0akYb+qSXlJ/FBxkjoWvRWMQdGgBhA==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1927,11 +1927,11 @@ snapshots:
 
   '@babel/helper-validator-identifier@7.27.1': {}
 
-  '@babel/parser@7.27.5':
+  '@babel/parser@7.27.7':
     dependencies:
-      '@babel/types': 7.27.6
+      '@babel/types': 7.27.7
 
-  '@babel/types@7.27.6':
+  '@babel/types@7.27.7':
     dependencies:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
@@ -3296,8 +3296,8 @@ snapshots:
 
   magicast@0.3.5:
     dependencies:
-      '@babel/parser': 7.27.5
-      '@babel/types': 7.27.6
+      '@babel/parser': 7.27.7
+      '@babel/types': 7.27.7
       source-map-js: 1.2.1
 
   make-dir@4.0.0:
@@ -3416,7 +3416,7 @@ snapshots:
 
   picomatch@4.0.2: {}
 
-  pnpm@10.12.3: {}
+  pnpm@10.12.4: {}
 
   possible-typed-array-names@1.1.0: {}
 
