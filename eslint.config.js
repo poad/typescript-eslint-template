@@ -36,12 +36,14 @@ export default tseslint.config(
   pluginPromise.configs['flat/recommended'],
   {
     files: ['src/**/*.ts'],
-    ...importPlugin.flatConfigs.recommended,
-    ...importPlugin.flatConfigs.typescript,
     languageOptions: {
       parser: tseslint.parser,
       ecmaVersion: 'latest',
       sourceType: 'module',
+      parserOptions: {
+        projectService: true,
+        tsconfigRootDir: __dirname,
+      },
     },
     settings: {
       'import/resolver': {
@@ -49,12 +51,14 @@ export default tseslint.config(
         node: true,
       },
     },
+    extends: [importPlugin.flatConfigs.recommended, importPlugin.flatConfigs.typescript],
     plugins: {
       '@stylistic': stylistic,
       '@stylistic/ts': stylistic,
     },
     rules: {
       '@stylistic/semi': ['error', 'always'],
+      '@stylistic/indent': ['error', 2],
       '@stylistic/ts/indent': ['error', 2],
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
       '@stylistic/arrow-parens': ['error', 'always'],
