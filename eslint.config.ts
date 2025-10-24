@@ -1,11 +1,10 @@
-// @ts-check
-
 import { defineConfig } from 'eslint/config';
 import eslint from '@eslint/js';
 import stylistic from '@stylistic/eslint-plugin';
 import tseslint from 'typescript-eslint';
 import importPlugin from 'eslint-plugin-import';
 
+// @ts-expect-error ignore type error
 import pluginPromise from 'eslint-plugin-promise'
 
 import { includeIgnoreFile } from '@eslint/compat';
@@ -31,7 +30,6 @@ export default defineConfig(
   eslint.configs.recommended,
   ...tseslint.configs.strict,
   ...tseslint.configs.stylistic,
-  // @ts-expect-error ignore type error
   pluginPromise.configs['flat/recommended'],
   {
     files: ['src/**/*.ts'],
@@ -53,13 +51,10 @@ export default defineConfig(
     extends: [importPlugin.flatConfigs.recommended, importPlugin.flatConfigs.typescript],
     plugins: {
       '@stylistic': stylistic,
-      '@stylistic/js': stylistic,
-      '@stylistic/ts': stylistic,
     },
     rules: {
       '@stylistic/semi': ['error', 'always'],
       '@stylistic/indent': ['error', 2],
-      '@stylistic/ts/indent': ['error', 2],
       '@stylistic/comma-dangle': ['error', 'always-multiline'],
       '@stylistic/arrow-parens': ['error', 'always'],
       '@stylistic/quotes': ['error', 'single'],
