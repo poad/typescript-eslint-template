@@ -39,8 +39,8 @@ importers:
         specifier: ^2.6.1
         version: 2.6.1
       pnpm:
-        specifier: ^10.26.0
-        version: 10.26.0
+        specifier: ^10.26.1
+        version: 10.26.1
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -51,8 +51,8 @@ importers:
         specifier: ^8.50.0
         version: 8.50.0(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       vite-tsconfig-paths:
-        specifier: ^6.0.2
-        version: 6.0.2(typescript@5.9.3)(vite@7.3.0(@types/node@25.0.3)(jiti@2.6.1))
+        specifier: ^6.0.3
+        version: 6.0.3(typescript@5.9.3)(vite@7.3.0(@types/node@25.0.3)(jiti@2.6.1))
       vitest:
         specifier: ^4.0.16
         version: 4.0.16(@types/node@25.0.3)(jiti@2.6.1)
@@ -1372,8 +1372,8 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
-  pnpm@10.26.0:
-    resolution: {integrity: sha512-Oz9scl6+cSUGwKsa1BM8+GsfS2h+/85iqbOLTXLjlUJC5kMZD8UfoWQpScc19APevUT1yw7dZXq+Y6i2p+HkAg==}
+  pnpm@10.26.1:
+    resolution: {integrity: sha512-ZkB0q8Nn0skyT9wYA3CXzgqPEmA0Fg9wmSjp6fldmHFDRwROXDFk1lvV2mxZxr42KxB1Rikqjuy3mZGW5c5Y+g==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -1606,8 +1606,8 @@ packages:
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
-  vite-tsconfig-paths@6.0.2:
-    resolution: {integrity: sha512-c06LOO8fWB5RuEPpEIHXU9t7Dt4DoiPIljnKws9UygIaQo6PoFKawTftz5/QVcO+6pOs/HHWycnq4UrZkWVYnQ==}
+  vite-tsconfig-paths@6.0.3:
+    resolution: {integrity: sha512-7bL7FPX/DSviaZGYUKowWF1AiDVWjMjxNbE8lyaVGDezkedWqfGhlnQ4BZXre0ZN5P4kAgIJfAlgFDVyjrCIyg==}
     peerDependencies:
       vite: '*'
     peerDependenciesMeta:
@@ -3080,7 +3080,7 @@ snapshots:
 
   picomatch@4.0.3: {}
 
-  pnpm@10.26.0: {}
+  pnpm@10.26.1: {}
 
   possible-typed-array-names@1.1.0: {}
 
@@ -3394,7 +3394,7 @@ snapshots:
     dependencies:
       punycode: 2.3.1
 
-  vite-tsconfig-paths@6.0.2(typescript@5.9.3)(vite@7.3.0(@types/node@25.0.3)(jiti@2.6.1)):
+  vite-tsconfig-paths@6.0.3(typescript@5.9.3)(vite@7.3.0(@types/node@25.0.3)(jiti@2.6.1)):
     dependencies:
       debug: 4.4.3
       globrex: 0.1.2
