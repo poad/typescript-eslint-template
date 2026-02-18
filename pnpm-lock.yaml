@@ -39,8 +39,8 @@ importers:
         specifier: ^2.6.1
         version: 2.6.1
       pnpm:
-        specifier: ^10.29.3
-        version: 10.29.3
+        specifier: ^10.30.0
+        version: 10.30.0
       tslib:
         specifier: ^2.8.1
         version: 2.8.1
@@ -1391,8 +1391,8 @@ packages:
     resolution: {integrity: sha512-5gTmgEY/sqK6gFXLIsQNH19lWb4ebPDLA4SdLP7dsWkIXHWlG66oPuVvXSGFPppYZz8ZDZq0dYYrbHfBCVUb1Q==}
     engines: {node: '>=12'}
 
-  pnpm@10.29.3:
-    resolution: {integrity: sha512-SY4ftMylqgbB3PJhHm+vxQly/+cYmZjECekN50VmREKY/+Q+bNKs3Hdboap8xeCSqLcFTIEbqMV3D4RpPTPS3A==}
+  pnpm@10.30.0:
+    resolution: {integrity: sha512-K1dT3gFdSA7riPW1th4AUfBbQwGAioLsi4QMnSrfd0jrNSyD9cFZPKcD/xAXKVvD/dMRmruWhu/Ja5/LGCAJNw==}
     engines: {node: '>=18.12'}
     hasBin: true
 
@@ -3060,7 +3060,7 @@ snapshots:
 
   picomatch@4.0.3: {}
 
-  pnpm@10.29.3: {}
+  pnpm@10.30.0: {}
 
   possible-typed-array-names@1.1.0: {}
 
