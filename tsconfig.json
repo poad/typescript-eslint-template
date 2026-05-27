@@ -18,5 +18,8 @@
   },
   "include": [
     "**/*"
+  ],
+  "exclude": [
+    "eslint.config.ts"
   ]
 }

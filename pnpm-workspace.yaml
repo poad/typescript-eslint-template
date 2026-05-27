@@ -1,12 +1,15 @@
 packages:
   - .
 
+allowBuilds:
+  unrs-resolver: false
+
 minimumReleaseAge: 10080 # 7 days in minutes
 minimumReleaseAgeExclude:
-#   - 'lodash@4.18.1'
-#   - 'handlebars@4.7.9'
-#   - esbuild@0.27.7
-#   - '@esbuild/*'
+  #   - 'lodash@4.18.1'
+  #   - 'handlebars@4.7.9'
+  #   - esbuild@0.27.7
+  #   - '@esbuild/*'
   - vite@8.0.7
   - '@vitest/*'
   - vitest@4.1.3
